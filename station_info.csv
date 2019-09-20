@@ -1,0 +1,5 @@
+st_name,st_code,long,lat,alt,city,owner,type,Eng_name,established,end
+基隆,466940,121.7404,25.1333,26.7,基隆市,中央氣象局,cwb,KEELUNG,1946/01/01,
+彭佳嶼,466950,122.0797,25.6279,101.7,基隆市,中央氣象局,cwb,PENGJIAYU,1910/01/01,
+七堵,C0B010,121.7171,25.0948,38,基隆市,中央氣象局,autoprec,Qidu,2018/06/23,
+基隆嶼,C0B020,121.7839,25.1914,86,基隆市,中央氣象局,autoprec,Keelung Islet,2018/10/26,

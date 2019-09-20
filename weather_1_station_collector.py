@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 class stationCollector():
-    def __init__(self, *args):
+    def __init__(self, input_list):
         self.root_dict = {'台北市':'466910','新北市':'466880','台中市':'467490',
                           '台南市':'467410','高雄市':'467440','基隆市':'466940',
                           '桃園市':'467050','新竹市':'C0D570','新竹縣':'467571',
@@ -17,11 +17,11 @@ class stationCollector():
                           '台東縣':'467540','澎湖縣':'467300','金門縣':'467110',
                           '連江縣':'467990'}
         self.root_id = []
-        for city in args:
+        for city in input_list:
             if city in self.root_dict.keys():
                 self.root_id.append(self.root_dict[city])
             else:
-                print("{} not in the dictionary")
+                print("{} does not exist".format(city))
 
         self.url_root = []
         self.id_for_form_data = []

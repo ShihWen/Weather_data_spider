@@ -21,7 +21,11 @@ class urlDownloader():
         end = datetime.date(int(end_date.split('-')[0]),
                             int(end_date.split('-')[1]),
                             int(end_date.split('-')[2]))
+
         numdays = end - begin
+
+        if end < begin:
+            print("\nDatetime error...\n")
 
         date_list = [begin + datetime.timedelta(days=x) for x in range(0, numdays.days)]
         date_inputs = [date.strftime('%Y-%m-%d') for date in date_list]
