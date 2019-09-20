@@ -12,7 +12,7 @@ How to use it:
    - if there are multiple cities separate them by comma ",". ex. 台北市,基隆市,新北市
 2. Type begin date in YYYY-MM-DD format. ex. 2018-01-01
 3. Type end date in YYYY-MM-DD format. ex. 2018-01-01
-   - Note: end date won't be included, if you type 2018-01-01 as begin date and 2018-01-03 as end date, the spider will search 2018-01-01 and 2018-01-02 only. 
+   - Note: End date won't be included, if you type 2018-01-01 as begin date and 2018-01-03 as end date, the spider will search 2018-01-01 and 2018-01-02 only. 
 
 
 Web page:
