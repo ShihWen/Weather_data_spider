@@ -9,10 +9,10 @@ The spider of weather data is consist of 4 parts:
 
 How to use it:
 1. Select stations by typing the city: ex. 台北市
- - if there are multiple cities separate them by comma ",". ex. 台北市,基隆市,新北市
+   - if there are multiple cities separate them by comma ",". ex. 台北市,基隆市,新北市
 2. Type begin date in YYYY-MM-DD format. ex. 2018-01-01
 3. Type end date in YYYY-MM-DD format. ex. 2018-01-01
-  - Note: end date won't be included, if you type 2018-01-01 as begin date and 2018-01-03 as end date, the spider will search 2018-01-01 and 2018-01-02 only. 
+   - Note: end date won't be included, if you type 2018-01-01 as begin date and 2018-01-03 as end date, the spider will search 2018-01-01 and 2018-01-02 only. 
 
 
 Web page:
